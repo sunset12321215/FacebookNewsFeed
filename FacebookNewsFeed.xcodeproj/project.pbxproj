@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		0405F09F21CCF67000C8DC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F09E21CCF67000C8DC23 /* AppDelegate.swift */; };
-		0405F0A121CCF67000C8DC23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0A021CCF67000C8DC23 /* ViewController.swift */; };
-		0405F0A421CCF67000C8DC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405F0A221CCF67000C8DC23 /* Main.storyboard */; };
+		0405F0A121CCF67000C8DC23 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0A021CCF67000C8DC23 /* FeedController.swift */; };
 		0405F0A621CCF67000C8DC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405F0A521CCF67000C8DC23 /* Assets.xcassets */; };
 		0405F0A921CCF67000C8DC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405F0A721CCF67000C8DC23 /* LaunchScreen.storyboard */; };
+		0405F0B921CCF97800C8DC23 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0B321CCF97800C8DC23 /* BaseUIView.swift */; };
+		0405F0BA21CCF97800C8DC23 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0B421CCF97800C8DC23 /* BaseViewController.swift */; };
+		0405F0BB21CCF97800C8DC23 /* Dimesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0B621CCF97800C8DC23 /* Dimesion.swift */; };
+		0405F0BC21CCF97800C8DC23 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0B721CCF97800C8DC23 /* Resource.swift */; };
+		0405F0BD21CCF97800C8DC23 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0B821CCF97800C8DC23 /* Theme.swift */; };
+		0405F0C221CCFF6E00C8DC23 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405F0C121CCFF6E00C8DC23 /* FeedCell.swift */; };
+		042C3AB321CF279D007622D5 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C3AB221CF279D007622D5 /* Posts.swift */; };
+		042C3AB621CF2CD9007622D5 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C3AB521CF2CD9007622D5 /* FeedPresenter.swift */; };
+		0459F09721CFAC5600A9DE53 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459F09621CFAC5600A9DE53 /* CustomTabBarController.swift */; };
+		0459F09B21CFAE9E00A9DE53 /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459F09A21CFAE9E00A9DE53 /* RequestController.swift */; };
+		BDFE912C5A79A53435A0F465 /* Pods_FacebookNewsFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1125E6C6D43314AA8D7EDB /* Pods_FacebookNewsFeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0405F09B21CCF67000C8DC23 /* FacebookNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0405F09E21CCF67000C8DC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0405F0A021CCF67000C8DC23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0405F0A321CCF67000C8DC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0405F0A021CCF67000C8DC23 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		0405F0A521CCF67000C8DC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0405F0A821CCF67000C8DC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0405F0AA21CCF67000C8DC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0405F0B321CCF97800C8DC23 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		0405F0B421CCF97800C8DC23 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0405F0B621CCF97800C8DC23 /* Dimesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimesion.swift; sourceTree = "<group>"; };
+		0405F0B721CCF97800C8DC23 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		0405F0B821CCF97800C8DC23 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0405F0C121CCFF6E00C8DC23 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		042C3AB221CF279D007622D5 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		042C3AB521CF2CD9007622D5 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		0459F09621CFAC5600A9DE53 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		0459F09A21CFAE9E00A9DE53 /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		0B2BBB2FA0B4D457EA41B3E7 /* Pods-FacebookNewsFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookNewsFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookNewsFeed/Pods-FacebookNewsFeed.release.xcconfig"; sourceTree = "<group>"; };
+		96A6B05A3B7CED6596040CEE /* Pods-FacebookNewsFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookNewsFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookNewsFeed/Pods-FacebookNewsFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1125E6C6D43314AA8D7EDB /* Pods_FacebookNewsFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookNewsFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFE912C5A79A53435A0F465 /* Pods_FacebookNewsFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				0405F09D21CCF67000C8DC23 /* FacebookNewsFeed */,
 				0405F09C21CCF67000C8DC23 /* Products */,
+				4CE060053724F00C1FB9B0AA /* Pods */,
+				45FA1E0106454672D58F6B5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,152 @@
 		0405F09D21CCF67000C8DC23 /* FacebookNewsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				0405F0BE21CCFF4000C8DC23 /* Moduls */,
+				0405F0B021CCF74F00C8DC23 /* Support */,
+				0405F0B121CCF97800C8DC23 /* Common */,
+			);
+			path = FacebookNewsFeed;
+			sourceTree = "<group>";
+		};
+		0405F0B021CCF74F00C8DC23 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				0405F09E21CCF67000C8DC23 /* AppDelegate.swift */,
-				0405F0A021CCF67000C8DC23 /* ViewController.swift */,
-				0405F0A221CCF67000C8DC23 /* Main.storyboard */,
 				0405F0A521CCF67000C8DC23 /* Assets.xcassets */,
 				0405F0A721CCF67000C8DC23 /* LaunchScreen.storyboard */,
 				0405F0AA21CCF67000C8DC23 /* Info.plist */,
 			);
-			path = FacebookNewsFeed;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0405F0B121CCF97800C8DC23 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0405F0B221CCF97800C8DC23 /* Base */,
+				0405F0B521CCF97800C8DC23 /* Style */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0405F0B221CCF97800C8DC23 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0405F0B321CCF97800C8DC23 /* BaseUIView.swift */,
+				0405F0B421CCF97800C8DC23 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0405F0B521CCF97800C8DC23 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0405F0B621CCF97800C8DC23 /* Dimesion.swift */,
+				0405F0B721CCF97800C8DC23 /* Resource.swift */,
+				0405F0B821CCF97800C8DC23 /* Theme.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0405F0BE21CCFF4000C8DC23 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				0459F09421CFAC2900A9DE53 /* TabBarController */,
+				04A62A0E21CD04AE00241069 /* FeedScreen */,
+				0459F09821CFAE6D00A9DE53 /* RequestScreen */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		0405F0BF21CCFF4C00C8DC23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0405F0A021CCF67000C8DC23 /* FeedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0405F0C021CCFF5000C8DC23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0405F0C121CCFF6E00C8DC23 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042C3AB121CF278A007622D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042C3AB221CF279D007622D5 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042C3AB421CF2CBA007622D5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				042C3AB521CF2CD9007622D5 /* FeedPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0459F09421CFAC2900A9DE53 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0459F09521CFAC3A00A9DE53 /* Controller */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		0459F09521CFAC3A00A9DE53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0459F09621CFAC5600A9DE53 /* CustomTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0459F09821CFAE6D00A9DE53 /* RequestScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0459F09921CFAE8400A9DE53 /* Controller */,
+			);
+			path = RequestScreen;
+			sourceTree = "<group>";
+		};
+		0459F09921CFAE8400A9DE53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0459F09A21CFAE9E00A9DE53 /* RequestController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04A62A0E21CD04AE00241069 /* FeedScreen */ = {
+			isa = PBXGroup;
+			children = (
+				042C3AB121CF278A007622D5 /* Model */,
+				0405F0C021CCFF5000C8DC23 /* View */,
+				0405F0BF21CCFF4C00C8DC23 /* Controller */,
+				042C3AB421CF2CBA007622D5 /* Presenter */,
+			);
+			path = FeedScreen;
+			sourceTree = "<group>";
+		};
+		45FA1E0106454672D58F6B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1125E6C6D43314AA8D7EDB /* Pods_FacebookNewsFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE060053724F00C1FB9B0AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96A6B05A3B7CED6596040CEE /* Pods-FacebookNewsFeed.debug.xcconfig */,
+				0B2BBB2FA0B4D457EA41B3E7 /* Pods-FacebookNewsFeed.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0405F0AD21CCF67000C8DC23 /* Build configuration list for PBXNativeTarget "FacebookNewsFeed" */;
 			buildPhases = (
+				0AFAD857FCCC2B226F9F5BDF /* [CP] Check Pods Manifest.lock */,
 				0405F09721CCF67000C8DC23 /* Sources */,
 				0405F09821CCF67000C8DC23 /* Frameworks */,
 				0405F09921CCF67000C8DC23 /* Resources */,
+				55295DA151ADB5AC5E59A496 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,33 +290,73 @@
 			files = (
 				0405F0A921CCF67000C8DC23 /* LaunchScreen.storyboard in Resources */,
 				0405F0A621CCF67000C8DC23 /* Assets.xcassets in Resources */,
-				0405F0A421CCF67000C8DC23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AFAD857FCCC2B226F9F5BDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookNewsFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55295DA151ADB5AC5E59A496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FacebookNewsFeed/Pods-FacebookNewsFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookNewsFeed/Pods-FacebookNewsFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0405F09721CCF67000C8DC23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0405F0A121CCF67000C8DC23 /* ViewController.swift in Sources */,
+				042C3AB621CF2CD9007622D5 /* FeedPresenter.swift in Sources */,
+				0405F0A121CCF67000C8DC23 /* FeedController.swift in Sources */,
+				0405F0BA21CCF97800C8DC23 /* BaseViewController.swift in Sources */,
+				0459F09B21CFAE9E00A9DE53 /* RequestController.swift in Sources */,
 				0405F09F21CCF67000C8DC23 /* AppDelegate.swift in Sources */,
+				0405F0BC21CCF97800C8DC23 /* Resource.swift in Sources */,
+				0459F09721CFAC5600A9DE53 /* CustomTabBarController.swift in Sources */,
+				0405F0BB21CCF97800C8DC23 /* Dimesion.swift in Sources */,
+				0405F0C221CCFF6E00C8DC23 /* FeedCell.swift in Sources */,
+				0405F0B921CCF97800C8DC23 /* BaseUIView.swift in Sources */,
+				042C3AB321CF279D007622D5 /* Posts.swift in Sources */,
+				0405F0BD21CCF97800C8DC23 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0405F0A221CCF67000C8DC23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0405F0A321CCF67000C8DC23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0405F0A721CCF67000C8DC23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +477,12 @@
 		};
 		0405F0AE21CCF67000C8DC23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A6B05A3B7CED6596040CEE /* Pods-FacebookNewsFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ94Y9HT46;
-				INFOPLIST_FILE = FacebookNewsFeed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookNewsFeed/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.FacebookNewsFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +493,12 @@
 		};
 		0405F0AF21CCF67000C8DC23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2BBB2FA0B4D457EA41B3E7 /* Pods-FacebookNewsFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ94Y9HT46;
-				INFOPLIST_FILE = FacebookNewsFeed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookNewsFeed/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.FacebookNewsFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
